@@ -54,3 +54,41 @@ x==========x]
 [2025-04-08 16:07:15,451: INFO: main: >>>>>> stage Prepare base model completed <<<<<<
 
 x==========x]
+[2025-04-09 14:28:46,821: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2025-04-09 14:28:46,862: INFO: common: yaml file: params.yaml loaded successfully]
+[2025-04-09 14:28:46,870: INFO: common: created directory at: artifacts]
+[2025-04-09 14:28:46,871: INFO: common: created directory at: artifacts\training]
+[2025-04-09 14:28:48,144: WARNING: saving_utils: Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.]
+[2025-04-09 14:35:18,514: WARNING: saving_api: You are saving your model as an HDF5 file via `model.save()` or `keras.saving.save_model(model)`. This file format is considered legacy. We recommend using instead the native Keras format, e.g. `model.save('my_model.keras')` or `keras.saving.save_model(model, 'my_model.keras')`. ]
+[2025-04-09 15:02:08,091: INFO: main: >>>>>> stage Data Ingestion stage started <<<<<<]
+[2025-04-09 15:02:08,095: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2025-04-09 15:02:08,096: INFO: common: yaml file: params.yaml loaded successfully]
+[2025-04-09 15:02:08,097: INFO: common: created directory at: artifacts]
+[2025-04-09 15:02:08,097: INFO: common: created directory at: artifacts/data_ingestion]
+[2025-04-09 15:02:08,099: INFO: data_ingestion: Downloading data from https://drive.google.com/file/d/1vlhZ5c7abUKF8xXERIw6m9Te8fW7ohw3/view?usp=sharing into file artifacts/data_ingestion/data.zip]
+[2025-04-09 15:02:18,466: INFO: data_ingestion: Downloaded data from https://drive.google.com/file/d/1vlhZ5c7abUKF8xXERIw6m9Te8fW7ohw3/view?usp=sharing into file artifacts/data_ingestion/data.zip]
+[2025-04-09 15:02:19,351: INFO: main: >>>>>> stage Data Ingestion stage completed <<<<<<
+
+x==========x]
+[2025-04-09 15:02:19,351: INFO: main: *******************]
+[2025-04-09 15:02:19,351: INFO: main: >>>>>> stage Prepare base model started <<<<<<]
+[2025-04-09 15:02:19,351: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2025-04-09 15:02:19,351: INFO: common: yaml file: params.yaml loaded successfully]
+[2025-04-09 15:02:19,359: INFO: common: created directory at: artifacts]
+[2025-04-09 15:02:19,359: INFO: common: created directory at: artifacts/prepare_base_model]
+[2025-04-09 15:02:19,818: WARNING: saving_api: You are saving your model as an HDF5 file via `model.save()` or `keras.saving.save_model(model)`. This file format is considered legacy. We recommend using instead the native Keras format, e.g. `model.save('my_model.keras')` or `keras.saving.save_model(model, 'my_model.keras')`. ]
+[2025-04-09 15:02:20,013: WARNING: saving_api: You are saving your model as an HDF5 file via `model.save()` or `keras.saving.save_model(model)`. This file format is considered legacy. We recommend using instead the native Keras format, e.g. `model.save('my_model.keras')` or `keras.saving.save_model(model, 'my_model.keras')`. ]
+[2025-04-09 15:02:20,155: INFO: main: >>>>>> stage Prepare base model completed <<<<<<
+
+x==========x]
+[2025-04-09 15:02:20,155: INFO: main: *******************]
+[2025-04-09 15:02:20,155: INFO: main: >>>>>> stage Training started <<<<<<]
+[2025-04-09 15:02:20,171: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2025-04-09 15:02:20,171: INFO: common: yaml file: params.yaml loaded successfully]
+[2025-04-09 15:02:20,171: INFO: common: created directory at: artifacts]
+[2025-04-09 15:02:20,177: INFO: common: created directory at: artifacts\training]
+[2025-04-09 15:02:20,395: WARNING: saving_utils: Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.]
+[2025-04-09 15:04:01,946: WARNING: saving_api: You are saving your model as an HDF5 file via `model.save()` or `keras.saving.save_model(model)`. This file format is considered legacy. We recommend using instead the native Keras format, e.g. `model.save('my_model.keras')` or `keras.saving.save_model(model, 'my_model.keras')`. ]
+[2025-04-09 15:04:03,788: INFO: main: >>>>>> stage Training completed <<<<<<
+
+x==========x]

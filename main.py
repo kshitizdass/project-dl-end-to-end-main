@@ -38,6 +38,16 @@ except Exception as e:
         logger.exception(e)
         raise e
 
+import mlflow
+import os
+
+os.environ["MLFLOW_TRACKING_URI"]="https://dagshub.com/kshitiz.dass/project-dl-end-to-end-main.mlflow"
+os.environ["MLFLOW_TRACKING_USERNAME"]="kshitiz.dass"
+os.environ["MLFLOW_TRACKING_PASSWORD"]="0f6ed27c58b2835ecaea6db1197d2f59acc980f6"
+
+mlflow.set_tracking_uri("https://dagshub.com/kshitiz.dass/project-dl-end-to-end-main.mlflow")
+
+
 STAGE_NAME = "Evaluation stage"
 try:
    logger.info(f"*******************")

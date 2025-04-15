@@ -24,3 +24,7 @@ git clone https://github.com/kshitizdass/project-dl-end-to-end-main.git
 ## step - 4. requirements
 pip install -r requirements.txt
 
+## Deployment
+## Docker for deployment, aws, ci/cd pipeline
+
+
